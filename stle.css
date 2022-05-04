@@ -1,0 +1,87 @@
+
+   
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Lexend+Deca:wght@700&display=swap');
+
+body { height: 100%;
+    font-family: 'Jost', sans-serif;
+}
+.blog {
+height: 100vh;
+background-image: radial-gradient;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+.button {
+    padding: 10px 15px;
+    background: rgb(255,127,80);
+    color: whitesmoke;
+    border-style: hidden;
+
+}
+.button:hover {
+    background-color: blue;
+}
+.container {
+    background-image: radial-gradient(circle at top right,rgb(102,205,170) 17%, white 10%);
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+input {
+    border: none;
+      border-bottom: 2px solid #333;
+      outline: none;
+    
+  }
+
+  .no-outline:focus {
+    outline: none;
+  }
+
+  
+img {
+    max-width: 5%;
+    max-height: 5%;
+    position: relative;
+    right: 20%;
+    
+
+}
+
+.container2 {
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    padding: 0.5em;
+}
+
+label,input {
+    margin-bottom: 5%;
+}
+
+.container2 div {
+    padding-left: 2em;
+    border-left: 1px solid lightgray;
+}
+
+.download {
+    margin-bottom: -4px;
+    margin-left: 30px;
+  }
+
+  .company {
+      margin-top: -20px;
+  }
+  
+  .text{
+      border: none;
+      border-bottom: 3px solid #333;
+  }
